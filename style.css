@@ -1,0 +1,251 @@
+.body {
+    background-color: rgb(241, 234, 234);
+}
+main {
+    blend:pass-through;
+    background-image: url('BG_main.png');
+    background-position: center;
+    background-size: 1521px 800px;
+    background-repeat: no-repeat;
+    font-family: 'Cormorant', serif;
+}
+.container1 {
+    display: flex;
+}
+.navbar-collapse {
+    margin-left: 3rem;
+}
+.navbar-collapse ul li  {
+    padding: 0.3rem 1.3rem;
+    padding-top: 1rem;
+}
+.navbar-collapse ul li:hover {
+    background-color: #FBC403;
+    opacity: 0.5;
+    color: white;
+    border-radius: 3px;
+}
+.contact_email {
+    display: flex;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.phone {
+    display: flex;
+    margin-right: 1rem;
+}
+.phone img,.email img {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.email {
+    display: flex;
+    margin-left: 1rem;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-top: -3rem;
+}
+.main {
+    color: white;
+    margin-top: 11rem;
+    margin-left: 9rem;
+}
+.main p {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    letter-spacing: 3px;
+}
+.main a {
+    list-style: none;
+    color: #FBC403;
+}
+.main a:hover {
+    border-bottom: 1px solid #FBC403;
+}
+.persentase {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -2.2rem;
+    margin-top: 7rem;
+}
+.angka {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -1.5rem;
+}
+.angka h6 {
+    margin: 0 1.7rem;
+}
+.aside img{
+    top: 70px;
+    position: relative;
+    margin-right: 5.5rem;
+}
+.about {
+    display: flex;
+    margin: 10rem 7rem;
+    margin-left: 12rem;
+}
+.about_us {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.about_us p {
+    font-family: 'Montserrat', sans-serif;
+}
+.button a {
+    text-decoration: none;
+    color: #FBC403;
+    font-weight: bold;
+    border-bottom: 1px solid #FBC403;
+}
+.button a:hover {
+    background-color: rgb(105, 101, 101);
+    color: #FBC403;
+    padding: 0.5rem 1rem;
+}
+.information {
+    background-image: url('what_BG.png');
+    background-position: center;
+    background-size: 1922px 815px;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    padding: 6rem 6rem;
+    padding-left: 12rem;
+}
+.provide {
+    margin-right: 2rem;
+}
+.provide h2 {
+    margin-bottom: 4rem;
+    font-family: 'Cormorant', serif;
+}
+.service1,.service2 {
+    margin-top: 2rem;
+    display: flex;
+}
+.ket3 {
+    margin-right: 5rem;
+}
+.ket1 {
+    margin-right: 3rem;
+}
+.service1 p,.service2 p {
+    font-size: 12px;
+    line-height: 15px;
+    color:  #ACACAC;
+}
+.ket1 img,.ket2 img,.ket3 img,.ket4 img {
+    margin-bottom: 1rem;
+}
+.welcome {
+    margin: 0 2rem;
+    width: 560px;
+    height: 240px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8rem;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+.welcome p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    color:  #ACACAC;
+}
+.layanan {
+    padding: 6rem 6rem;
+    padding-left: 12rem;
+    font-family: 'Cormorant', serif;
+}
+.teks {
+    display: flex;
+    justify-content: space-between;
+}
+.kartu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.card img {
+    border-bottom: 2px solid #fbc403;
+}
+.card-body {
+    background-color: #2b2d2f;
+    color: white;
+}
+.card-title,.card-text {
+    color: white;
+}
+.card-body a {
+    color: #FBC403;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card-body a:hover {
+    background-color: rgb(105, 101, 101);
+    color: #FBC403;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact {
+    padding: 6rem 6rem;
+    padding-left: 12rem;
+    background-image: url('contact.png');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact h2{
+    font-family: 'Cormorant', serif;
+}
+.container3 {
+    margin-top: 4rem;
+    display: flex;
+    align-content: space-between;
+    margin-right: 20rem;
+    padding-right: 7rem;
+    border: 1px solid white;
+    padding: 2rem 4rem;
+}
+.left   {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+.right a {
+    color: #FBC403;
+    text-decoration: none;
+    font-size: 24px;
+}
+.right a:hover {
+    background-color: rgb(105, 101, 101);
+    color: #FBC403;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    text-decoration: none;
+}
+.right p {
+    position: relative;
+    margin-top: 2rem;
+    right: -14rem;
+}
